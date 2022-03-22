@@ -1,0 +1,322 @@
+.Kontejner{
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+    background-image: linear-gradient(to bottom, rgba(175, 174, 174, 0.5) 25%, rgba(160, 160, 160, 0) 45%), url("../Slike/back3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+
+.Heder{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    min-height: 70px;
+    margin-bottom: 7px;
+
+
+}
+
+body{
+    margin: 0px;
+    backdrop-filter: blur(50%);
+}
+
+.Ostalo{
+    display: flex;
+    flex-direction: row;
+    min-height: 550px;
+    flex-wrap: wrap;
+
+}
+
+.Naslov{
+    font-size: 40px;
+    cursor: pointer;
+    padding:6px ;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 1px rgba(255, 255, 0, 0.6);
+    font-weight: bold;
+    font-family: Arial Black, Gadget, sans-serif;
+    letter-spacing: 0.5px;
+
+}
+
+ .Naslov2, .Naslov3{
+    font-size: 27px;
+    padding-left: 5px;
+    margin-bottom: 4px;
+    text-shadow: 3px 3px rgba(12, 12, 12, 0.3);
+}
+
+input, select{
+    width: 100%;
+    padding:  7px 5px;
+    margin: 3px 0;
+    display: grid;
+    border: 3px solid rgb(204, 204, 204);
+    border-radius: 0px;
+    box-sizing: border-box;
+    text-align: center; 
+    background-color: rgb(153, 153, 153);
+    width:max-content;
+  }
+
+  button{
+    width: 100%;
+    background-color: rgb(92, 89, 89);
+    color: rgb(255, 255, 255);
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;;
+    box-shadow: 0 9px rgba(252, 255, 0, 0.8);
+    
+}
+
+.Div_Dugmeta{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Div_Dugmeta1{
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+}
+
+.Dugmeta1, .Dugmeta3{
+    margin-right: 3px;
+}
+
+.Dugmeta2, .Dugmeta4{
+    margin-left: 3px;
+}
+
+.Dugmeta123{
+    margin-left: 5px;
+}
+.Izbor{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 45px;
+    margin-top: 10px;
+
+
+}
+
+.Firma_Div, .Projekat_Div, .Masina_Div , .Radnik_Div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 30px;
+}
+
+.Prikaz{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1026px;
+    padding-left: 10px;
+    padding-top: 45px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+
+.Prikaz_Opcije{
+    max-width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #fdfdff;
+    color: black;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-image: url("../Slike/sahara.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+}
+
+.Prikaz_Rezultat{
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    align-items: center; 
+    flex-direction: column;
+
+}
+
+.Prikaz_Opcije_Dodaj{
+
+    display:flex;
+    margin: 10px 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Opcije_naslov{
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 8px;
+
+}
+
+.divNova_Firma, .divNovi_Projekat,.divNovi_Radnik, .divNova_Masina, .Pozadina_Rezultat{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-image: url("../Slike/sahara.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: fit-content;
+    flex-direction: column;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+.divNaziv_Nove_Firme, .divAdresa_Nove_Firme, .divPIB_Nove_Firme, .divMB_Nove_Firme, .divZastupnik_Nove_Firme,
+.divNaziv_Novog_Projekta, .divBroj_Novog_Projekta, .divLokacija_Novog_Projekta, .divTip_Novog_Projekta, .divStanje_Novog_Projekta,
+.divBrRadnika_Novog_Projekta, .divFirma_Novog_Projekta, .divFirma_Nove_Masine,
+.divTip_Nove_Masine, .divNovi_Radnik_Ime, .divNovi_Radnik_Jmbg, 
+.divNovi_Radnik_Profesija, .divNovi_Radnik_Masina, .divNovi_Radnik_GodineI,
+.divNovi_Radnik_Godine, .divNovi_Radnik_Firma, .divNovi_Radnik_Projekat, .divBRS_Nove_Masine, .divGodiste_Nove_Masine, .divStanje_Nove_Masine,
+.divIDF_Nove_Masine, .divFirma_Nove_Masine{
+    display: flex;
+    align-items:center;
+    margin: 15px;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.Div_Masina_Izbor, .Div_Masina_BRS, .Div_Masina_Godiste, .Div_Masina_Stanje,
+.Div_Masina_IdentBr, .Div_Masina_Firma, .Div_Radnik_Izbor, .Div_Radnik_Ime,
+.Div_Radnik_Jmbg,.Div_Radnik_Profesija,.Div_Radnik_Masina,.Div_Radnik_GodineI,
+.Div_Radnik_Godine,.Div_Radnik_Firma,.Div_Radnik_Projekat{
+    align-items: center;
+    text-align: center;
+}
+
+.Div_Izmeni_Firmu, .Div_Izbrisi_Firmu{
+    display:flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+}
+
+
+.Div_Izmeni_Firmu_Labela, .Div_Izmeni_Projekat_Labela{
+    display: flex;
+    padding-bottom: 10px;
+    
+}
+
+.Div_Izmeni_Projekat, .Div_Izbrisi_Projekat, .Div_Prikazi_Masinu,
+.Div_Unesi_IDF, .Div_Izbrisi_Radnika{
+    align-items: center;
+    text-align: center;
+}
+
+.Div_Izbrisii_Projekat{
+    margin: 7px;
+    align-items: center;
+    text-align: center;
+}
+
+.Input_Projekat{
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 1px 1px 30px 30px;
+
+}
+.Input_Masina_Firma, .Input_IDF, .Input_Radnika{
+    margin-left: 23px;
+}
+
+.Input_Masina_Izbor1{
+    margin-left: 55px;
+
+}
+.Input_Projekat1{
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 30px 30px 1px 1px;
+
+}
+
+.Prikaz_Opcije_Izmeni, .Prikaz_Opcije_Izbrisi, .Prika{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+}
+
+
+.Input_Firmi_Naziv, .Input_Firmu_Naziv, .Input_Projekat_Naziv,
+.Input_Projektu_BrRadnika
+{
+    border-radius: 30px 30px 1px 1px;
+}
+
+.Input_Firmi_Zastupnika , .Input_Firmu_Zastupnik, .Input_Projekat_Firma,
+.Input_Projektu_IDFirme
+{
+    border-radius: 1px 1px 30px 30px;
+}
+label3{
+    text-align: center;
+    font-size: 17px;
+
+}
+
+label2{
+    text-align: center;
+    font-size: 15px;
+}
+
+label1{
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+label4{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+
+
+
